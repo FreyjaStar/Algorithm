@@ -6,7 +6,7 @@
     <li><a href="">3.数据结构</a></li>
     <li><a href="">4.数组</a></li>
     <li><a href="">5.链表</a></li>
-    <li><a href=""></a></li>
+    <li><a href="">6.列表</a></li>
     <li><a href=""></a></li>
     <li><a href=""></a></li>
     <li><a href=""></a></li>
