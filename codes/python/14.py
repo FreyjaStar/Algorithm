@@ -1,3 +1,4 @@
+# 14.py
 class MyList:
     # 构造方法
     def __init__(self):
@@ -48,20 +49,25 @@ class MyList:
     def extend_capacity(self):
         self._arr=self._arr+[0]*self._capacity()*(self._exend_ratio-1)
         self._capacity=len(self._arr)
+    
+    # 返回有效长度
+    def to_array(self) -> list[int]:
+        return self._arr[: self._size]
+    
+    # 删除元素
+    def remove(self, index: int) -> int:
+        if index < 0 or index >= self._size:
+            raise IndexError("索引越界")
+        num = self._arr[index]
+        # 将索引 index 之后的元素都向前移动一位
+        for j in range(index, self._size - 1):
+            self._arr[j] = self._arr[j + 1]
+        # 更新元素数量
+        self._size -= 1
+        # 返回被删除的元素
+        return num
 
 
-#  def to_array(self) -> list[int]:
-#         """返回有效长度的列表"""
-#         return self._arr[: self._size]
-# def remove(self, index: int) -> int:
-#         """删除元素"""
-#         if index < 0 or index >= self._size:
-#             raise IndexError("索引越界")
-#         num = self._arr[index]
-#         # 将索引 index 之后的元素都向前移动一位
-#         for j in range(index, self._size - 1):
-#             self._arr[j] = self._arr[j + 1]
-#         # 更新元素数量
-#         self._size -= 1
-#         # 返回被删除的元素
-#         return num
+
+
+

@@ -7,8 +7,8 @@
     <li><a href="https://github.com/FreyjaStar/Algorithm/blob/main/docs/4.%E6%95%B0%E7%BB%84.md">4.数组</a></li>
     <li><a href="https://github.com/FreyjaStar/Algorithm/blob/main/docs/5.%E9%93%BE%E8%A1%A8.md">5.链表</a></li>
     <li><a href="https://github.com/FreyjaStar/Algorithm/blob/main/docs/6.%E5%88%97%E8%A1%A8.md">6.列表</a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
+    <li><a href=""></a>7.内存与缓存(了解)</li>
+    <li><a href="">8.栈</a></li>
     <li><a href=""></a></li>
     <li><a href=""></a></li>
     <li><a href=""></a></li>
